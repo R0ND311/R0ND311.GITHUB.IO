@@ -53,7 +53,16 @@ createPlatform(250, 580, 50, 10);
 createPlatform(150, 460, 50, 10);
 createPlatform(250,360, 50, 10);
 createPlatform(150, 260, 50, 10);
-create
+createPlatform(550, 400, 50, 10);
+createPlatform(360, 300, 50, 10);
+createPlatform(700, 400, 50, 10);
+createPlatform(900, 200, 50, 10);
+createPlatform(800, 100, 50, 10);
+createPlatform(1000,455, 50, 10);
+createPlatform(1050, 300, 50, 10);
+createPlatform(1080, 500, 50, 10);
+createPlatform(353, 300, 50, 10);
+createPlatform(800, 550, 50, 10)
 
     // TODO 2
     // Create collectables
@@ -62,7 +71,7 @@ create
     // example usage: createCollectable(type, x, y, gravity, bounce)
 
 
-
+createCollectables(150, 460, 50, 10); 'diamond'
 
     // TODO 3
     // Create cannons
