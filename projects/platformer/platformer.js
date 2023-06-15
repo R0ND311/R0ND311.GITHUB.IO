@@ -62,9 +62,9 @@ createPlatform(1000,455, 50, 10);
 createPlatform(1050, 300, 50, 10);
 createPlatform(1080, 500, 50, 10);
 createPlatform(353, 300, 50, 10);
-createPlatform(800, 550, 50, 10)
-createPlatform(850, 450, 50, 10)
-createPlatform();
+createPlatform(800, 550, 50, 10);
+createPlatform(850, 450, 50, 10);
+createPlatform(1100, 645, 50, 10);
 
 
     // TODO 2
@@ -74,7 +74,10 @@ createPlatform();
     // example usage: createCollectable(type, x, y, gravity, bounce)
 
 
-createCollectables(150, 460, 50, 10); 'diamond'
+createCollectable('diamond', 150, 410, 5, 1); 
+createCollectable('grace', 700, 300, 5, 1);
+createCollectable('max', 800, 70, 5, 1)
+
 
     // TODO 3
     // Create cannons
