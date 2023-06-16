@@ -65,6 +65,8 @@ createPlatform(353, 300, 50, 10);
 createPlatform(800, 550, 50, 10);
 createPlatform(850, 450, 50, 10);
 createPlatform(1100, 645, 50, 10);
+createPlatform(975, 245, 50, 10);
+createPlatform(1300, 300 , 50 ,10);
 
 
     // TODO 2
@@ -76,8 +78,8 @@ createPlatform(1100, 645, 50, 10);
 
 createCollectable('diamond', 150, 410, 5, 1); 
 createCollectable('grace', 700, 300, 5, 1);
-createCollectable('max', 800, 70, 5, 1)
-
+createCollectable('max', 800, 70, 5, 1);
+createCollectable('kennedi', 1060, 30, 5, 1)
 
     // TODO 3
     // Create cannons
@@ -85,7 +87,9 @@ createCollectable('max', 800, 70, 5, 1)
     // Your wall choices are: 'top' 'left' 'right' and 'bottom'
     // example usage: createCannon(side, position, delay, width, height)
 
-
+createCannon('bottom', 300, 600)
+createCannon('right', 750, 1000)
+createCannon('top', 750, 899)
 
 
     /////////////////////////////////////////////////
