@@ -714,7 +714,7 @@ Now, using what you've learned about how to bounce the box off the right wall, i
         >
         >If you see your box doing this...
         ><br>
-        ><img src="images/wiggle_bug.gif">
+63        ><img src="images/wiggle_bug.gif">
         >
         >Then that means that one or both of your boundary comparisons are incorrect. There are two possible places where this could go wrong.
         >
