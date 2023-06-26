@@ -69,7 +69,7 @@
 
 			var positionX = 0;
 			var points = 0;
-		    var speed = 20;
+			var speed = 20;
 
 			/*
 			This Function will be called 20 times/second. Each time it is called,
@@ -85,7 +85,7 @@
 					speed = speed * -1;
 
 				}
-			    if (positionX < 0) {
+				if (positionX < 0) {
 					speed *= -1
 				}
 
@@ -102,11 +102,17 @@
 			function handleBoxClick() {
 				// when you first create the var
 
+				points = points + 1
 				changeBoxText(points);
 				positionX = 0;
-				points = points + 1
 				moveBoxTo(positionX)
-
+				// speed = speed + 3
+				if (speed > 0) {
+					speed = speed + 3
+				}
+				else if (speed < 0) {
+					speed = speed - 3
+				}
 
 			};
 		})();
